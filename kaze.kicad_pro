@@ -490,9 +490,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "kaze.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "kaze.wrl"
     },
     "page_layout_descr_file": ""
   },
