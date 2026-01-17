@@ -1,28 +1,28 @@
-Kaze BOM,,,,,,,,,
+BOM,,,,,,,,,
 JLCPCB BOM,,,,,,,,,
 Index,Item,Price,Note,,,,,,
 1,PCB from JLCPCB,2.10 $US,,,,,,,
 2,Stencil,7.00 $US,,,,,,,
 3,JLCPCB Shipping,26.55 $US,"Cheapest possible. (Global Standard Direct Line), possible to reduce in half if ordered with other project",,,,,,
-Digikey BOM,,,,,,,,,
-Index,Manufacturer Part Number,Total Price,Description,Quantity,Pack Type,Digi-Key Part Number,Unit Price,Manufacturer Name,Reference Designator
-1,ESP32-C6-MINI-1-N4,9.02 $US,RF TXRX MOD BT WIFI PCB TH SMD,2,Cut Tape (CT),1965-ESP32-C6-MINI-1-H4CT-ND,4.51,Espressif Systems,U4
-2,SKRKAEE020,1.64 $US,SWITCH TACTILE SPST-NO 0.05A 12V,4,Cut Tape (CT),4809-SKRKAEE020CT-ND,0.41000,Alps Alpine,"SW1, SW2"
-3,BME680,17.30 $US,SENSOR GAS/HUM/PRES/TEMP I2C SPI,2,Cut Tape (CT),828-1077-1-ND,8.65000,Bosch Sensortec,U2
-4,TSL25911FN,3.34 $US,SENSOR OPT AMBIENT 6 WFDFN,2,Cut Tape (CT),TSL25911FNCT-ND,1.67000,ams-OSRAM USA INC.,U1
-5,4684,3.95 $US,ADDRESS LED DISCRETE RGB,1,Bag,1528-4684-ND,3.95000,Adafruit Industries LLC,"D1, D2, D3, D4, D5"
-6,USB4105-GF-A,1.56 $US,CONN RCP USB2.0 TYP C 16P SMD RA,2,Cut Tape (CT),2073-USB4105-GF-ACT-ND,0.78000,GCT,P1
-7,AP2112K-3.3TRG1,0.44 $US,IC REG LINEAR 3.3V 600MA SOT-25,2,Cut Tape (CT),AP2112K-3.3TRG1DICT-ND,0.22000,Diodes Incorporated,U3
-8,MCP73831T-2ACI/OT,1.52 $US,IC BATT CNTL LI-ION 1CEL SOT23-5,2,Cut Tape (CT),MCP73831T-2ACI/OTCT-ND,0.76000,Microchip Technology,U5
-9,CL05B104KP5VPNC,0.74 $US,CAP CER 100NF 10V X7R 0402,20,Cut Tape (CT),1276-CL05B104KP5VPNCCT-ND,0.03700,Samsung Electro-Mechanics,"C1, C8, C10, C12, C13, C14, C15, C16, C2, C5"
-10,CL05A475MO5NUNC,0.32 $US,CAP CER 4.7UF 16V X5R 0402,4,Cut Tape (CT),1276-6836-1-ND,0.08000,Samsung Electro-Mechanics,"C11, C17"
-11,CL05A106MP6NUN8,0.48 $US,CAP CER 10UF 10V X5R 0402,4,Cut Tape (CT),1276-CL05A106MP6NUN8CT-ND,0.12000,Samsung Electro-Mechanics,
-12,RC0402JR-0710KL,0.12 $US,RES 10K OHM 5% 1/16W 0402,20,Cut Tape (CT),311-10KJRCT-ND,0.00600,YAGEO,
-13,RC0402JR-074K7L,0.03 $US,RES 4.7K OHM 5% 1/16W 0402,10,Cut Tape (CT),311-4.7KJRCT-ND,0.00300,YAGEO,
-14,RC0402FR-0722RL,0.07 $US,RES 22 OHM 1% 1/16W 0402,10,Cut Tape (CT),311-22.0LRCT-ND,0.00700,YAGEO,
-15,RC0402JR-072K4L,0.20 $US,RES 2.4K OHM 5% 1/16W 0402,2,Cut Tape (CT),311-2.4KJRCT-ND,0.10000,YAGEO,
-16,RC0402FR-075K1L,0.08 $US,RES 5.1K OHM 1% 1/16W 0402,10,Cut Tape (CT),311-5.10KLRCT-ND,0.00800,YAGEO,
-17,CL05A105KO5NNNC,0.06 $US,CAP CER 1UF 16V X5R 0402,10,Cut Tape (CT),1276-1067-1-ND,0.00600,Samsung Electro-Mechanics,
-18,CL05A226MQ5N6J8,0.26 $US,CAP CER 22UF 6.3V X5R 0402,2,Cut Tape (CT),1276-7090-1-ND,0.13000,Samsung Electro-Mechanics,
-TOTAL,,41.13 $US,,,,,,,
-TOTAL IN BOM,,76.78 $US,,,,,,,
+LCSC BOM,,,,,,,,,
+Mrf#,Mfr.,Order Qty.,Unit Price(USD),Ext.Price(USD),LCSC#,Package,Mult,Description,Product Link
+TYPE-C 16PIN 2MD(073),SHOU HAN,20,0.0600,1.20,C2765186,SMD,20,"USB-C (USB TYPE-C) Receptacle Connector 16 Position Surface Mount, Right Angle",https://www.lcsc.com/product-detail/C2765186.html
+ESP32-C6-MINI-1-N4,ESPRESSIF,2,4.0436,8.09,C5736265,SMD-53P,1,2.4GHz ESP32-C6FH4 On-board PCB Antenna -99.2dBm SMD-53P RF Transceiver Modules and Modems RoHS,https://www.lcsc.com/product-detail/C5736265.html
+BME680,Bosch,1,9.8543,9.85,C125972,LGA-8,1,30Kpa~1.1bar Temperature Sensor LGA-8 Specialized Sensors RoHS,https://www.lcsc.com/product-detail/C125972.html
+SKRKAEE020,ALPSALPINE,5,0.1298,0.65,C115357,"SMD,3.9x2.9mm",5,Tactile Switch SPST 2mm 3.9mm x 2.9mm Surface Mount,https://www.lcsc.com/product-detail/C115357.html
+TSL25911FN,AMS,3,1.8060,5.42,C176812,DFN-6(2x2.2),1,"I2C 2.7V~3.6V DFN-6(2x2.2) Ambient Light, IR, UV Sensors RoHS",https://www.lcsc.com/product-detail/C176812.html
+MCP73831T-2ACI/OT,MICROCHIP,2,0.7279,1.46,C424093,SOT-23-5,1,3.75V~6V Lithium Battery 1 550mA SOT-23-5 Battery Chargers ICs RoHS,https://www.lcsc.com/product-detail/C424093.html
+CL05B104KP5VPNC,Samsung Electro-Mechanics,100,0.0049,0.49,C16193311,0402,100,100nF ±10% 10V Ceramic Capacitor X7R 0402,https://www.lcsc.com/product-detail/C16193311.html
+CL05A475MO5NUNC,Samsung Electro-Mechanics,20,0.0090,0.18,C318563,0402,20,4.7uF ±20% 16V Ceramic Capacitor X5R 0402,https://www.lcsc.com/product-detail/C318563.html
+CL05A106MP6NUN8,Samsung Electro-Mechanics,50,0.0118,0.59,C3902158,0402,50,10uF ±20% 10V Ceramic Capacitor X5R 0402,https://www.lcsc.com/product-detail/C3902158.html
+RC0402JR-0710KL,YAGEO,100,0.0007,0.07,C60489,0402,100,62.5mW 10kΩ 50V Thick Film Resistor ±100ppm/℃ ±5% 0402 Chip Resistor - Surface Mount RoHS,https://www.lcsc.com/product-detail/C60489.html
+RC0402JR-074K7L,YAGEO,100,0.0007,0.07,C105870,0402,100,62.5mW 4.7kΩ 50V Thick Film Resistor ±100ppm/℃ ±5% 0402 Chip Resistor - Surface Mount RoHS,https://www.lcsc.com/product-detail/C105870.html
+RC0402FR-0722RL,YAGEO,100,0.0007,0.07,C114765,0402,100,22Ω 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,https://www.lcsc.com/product-detail/C114765.html
+RC0402JR-072K4L,YAGEO,100,0.0007,0.07,C137889,0402,100,62.5mW 2.4kΩ 50V Thick Film Resistor ±100ppm/℃ ±5% 0402 Chip Resistor - Surface Mount RoHS,https://www.lcsc.com/product-detail/C137889.html
+RC0402FR-075K1L,YAGEO,100,0.0008,0.08,C105872,0402,100,5.1kΩ 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS,https://www.lcsc.com/product-detail/C105872.html
+CL05A105KO5NNNC,Samsung Electro-Mechanics,100,0.0023,0.23,C29266,0402,100,1uF ±10% 16V Ceramic Capacitor X5R 0402,https://www.lcsc.com/product-detail/C29266.html
+WS2812B-2020,Worldsemi,10,0.0829,0.83,C965555,"SMD,2.2x2mm",5,"SMD,2.2x2mm LED Addressable, Specialty RoHS",https://www.lcsc.com/product-detail/C965555.html
+CL05A105KP5NNNC,Samsung Electro-Mechanics,100,0.0018,0.18,C14445,0402,100,1uF ±10% 10V Ceramic Capacitor X5R 0402,https://www.lcsc.com/product-detail/C14445.html
+AP2112K-3.3TRG1,TECH PUBLIC,5,0.0936,0.47,C23380830,SOT-23-5,5,"5.5V Positive Fixed 3.3V SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS",https://www.lcsc.com/product-detail/C23380830.html
+EST TOTAL :$30.10 + $9.50 shipping (GDSL) - $5.10 discounts = $34.50 ,,,,,,,,,
+TOTAL = 34.5+26.55+7+2.1= $70.15,,,,,,,,,
