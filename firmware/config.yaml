@@ -1,0 +1,34 @@
+esphome:
+  name: kaze-unit
+
+esp32:
+  board: esp32-c6-devkitc-1 # Best match for C6-Mini-1
+  framework:
+    type: esp-idf
+
+i2c:
+  sda: 6  # Replace with your actual SDA pin
+  scl: 7  # Replace with your actual SCL pin
+
+sensor:
+  - platform: bme680
+    temperature:
+      name: "Room Temperature"
+    pressure:
+      name: "Atmospheric Pressure"
+    humidity:
+      name: "Relative Humidity"
+    gas_resistance:
+      name: "Gas Resistance"
+    address: 0x77
+
+  - platform: tsl2561
+    name: "Ambient Light"
+    address: 0x39
+
+light:
+  - platform: neopixelbus
+    type: GRB
+    pin: 8 # Replace with your LED data pin
+    num_leds: 5
+    name: "Kaze Status LEDs"

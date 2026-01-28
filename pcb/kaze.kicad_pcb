@@ -34,6 +34,46 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(color "#000000FF")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -19656,7 +19696,7 @@
 			)
 		)
 		(fp_text user "GROUND"
-			(at 1.185 -0.5 0)
+			(at 0.8624 -1.8474 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "136e3d09-8eb5-4a45-8010-733c93b3ff86")
@@ -19669,7 +19709,7 @@
 			)
 		)
 		(fp_text user "POWAAA"
-			(at -4 -0.5 0)
+			(at -3.7096 -1.7458 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "73422c38-b25c-4b49-a78b-dd4813207057")
